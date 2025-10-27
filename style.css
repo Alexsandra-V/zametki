@@ -1,0 +1,124 @@
+body {
+    background: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+
+.wrapper {
+    background: white;
+    width: 1000px;
+    height: 90%;
+    border: 1px solid #d8d9da;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 370px 1fr;
+    overflow: hidden;
+
+}
+
+.menu {
+    background: #fcfbfc;
+    border-right: 1px solid #f0f0f0;
+    padding: 30px;
+
+}
+
+.menu_title {
+    text-align: center;
+}
+
+.menu_button {
+    background: #a076ee;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.tegs_li {
+    margin: 20px;
+    background: #dbc7ff;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.forma_input {
+    border: 1px solid #d8d9d0;
+    padding: 5px 5px;
+    flex-grow: 1;
+    border: 1px solid #d8d9d0;
+    border-radius: 5px;
+    width: 85%;
+    margin: 15px;
+}
+
+.forma_button {
+    color: white;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+
+    border: 1px solid #a076ee;
+    cursor: pointer;
+    background: url('./img.png') no-repeat center center;
+    background-size: contain;
+    padding: 9px;
+
+}
+
+.otchut {
+    width: 90%;
+    border: 1px solid #a076ee;
+    border-radius: 5px;
+    padding: 15px 10px 45px;
+    display: flex;
+    justify-content: left;
+    margin: 20px 20px;
+
+}
+
+.otchutttt {
+    overflow-y: auto;
+    height: 770px;
+    overflow-x: hidden;
+}
+
+.otchutttt__item {
+    position: relative;
+
+    border: 1px solid rgb(206, 132, 255);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.rabota {
+    border: 1px solid #dbc7ff;
+    border-radius: 10px;
+    background: #dbc7ff;
+    width: fit-content;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 5px;
+}
+
+.otchut_1 {
+    font-size: 20px;
+
+}
+
+.data {
+    margin-top: 20px;
+    left: 10px;
+
+
+}
