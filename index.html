@@ -13,14 +13,10 @@
 <body>
     <div class="wrapper">
         <div class="menu">
-            <h1 class="menu_title">
-                Мои Заметки
-            </h1>
-            <button class="menu_button" id="knopka">
-                Новая заметка
-            </button>
-            <h2 class="tegs">Теги</h2>
-            <div id="menu_list"></div>
+            <h1 class="menu_title">Мои Заметки</h1>
+            <button class="menu_button" id="knopka">Новая заметка</button>
+            <div class="tegs" id="menu_list">Теги</div>
+
             <!-- <div class="tegs_li">Все</div>
             <div class="tegs_li">Идеи</div>
             <div class="tegs_li">Личное</div>
@@ -30,18 +26,13 @@
         </div>
 
         <div class="content">
-            <div class="search">
-                <input type="text" id="searchInput" class="forma_input" placeholder="поиск">
-                <button class="forma_button" id="searchBtn">
-
-                </button>
-
-
-
+            <div class="poisk">
+                <input type="text" id="poisk_2" class="poisk_2" placeholder="поиск">
+                <button class="forma_button" id="poisk_tegov"></button>
             </div>
             <div class="otchutttt" id="otchut">
 
-                <div class="otchutttt__item">
+                <!--<div class="otchutttt__item">
                     <div class="otchut_1"><b>Сдать отчет</b></div>
                     <div class="data">19.02</div>
                     <div class="rabota">Работа</div>
@@ -52,9 +43,9 @@
                     <div class="data">19.02</div>
                     <div class="rabota">Работа</div>
                 </div>
-            </div>
+            </div>-->
 
-            <!-- <div class="otchut">Сдать отчет</div>
+                <!-- <div class="otchut">Сдать отчет</div>
             <div class="otchut">Сдать отчет</div>
             <div class="otchut">Сдать отчет</div>
             <div class="otchut">Сдать отчет</div>
@@ -66,8 +57,22 @@
             <div class="otchut">Сдать отчет</div> -->
 
 
+            </div>
         </div>
-    </div>
+        <div class="overlay" id="overlay">
+            <div class="okno">
+                <button class="okno_zakrit" id="okno_zakrit">x</button>
+                <form class="okno__form" id="okno_form">
+                    <input type="text" id="okno_dlya_texsta" placeholder="Заголовок">
+                    <select name="vibor_tegov" id="vibor_tegov">
+                        <option value="value1">Значение 1</option>
+                        <option value="value2">Значение 2</option>
+                        <option value="value3">Значение 3</option>
+                    </select>
+                    <button class="knopka_soxranit" id="knopka_soxranit">Сохранить</button>
+                </form>
+            </div>
+        </div>
 
 </body>
 
